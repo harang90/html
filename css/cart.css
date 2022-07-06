@@ -1,0 +1,33 @@
+.cartBackground {
+    width:100%;
+    height:100%;
+    max-width:600px;
+    min-height: 100px;
+    max-height:800px;
+    background-color: chartreuse;
+    margin:auto;
+    padding: 50px;
+}
+
+.cartTitle {
+    margin-top: -15px;
+    padding-top: 0px;
+}
+
+.cartTable {
+    background-color: cornsilk;
+    margin:auto;
+    width:100%;
+}
+
+.cartTableHeaderTr {
+}
+
+.cartTableItemTr {
+}
+
+.cartImg {
+    width:25%;
+    height:25%;
+    margin:auto;
+}
