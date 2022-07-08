@@ -1,0 +1,23 @@
+.movingBox {
+    max-width: 1500px;
+    margin:auto;
+    height:1000px;
+    background-color: aqua;
+}
+
+.movingBox div {
+    float: left;
+    width: 25%;
+}
+
+@media screen and (max-width: 1200px) {
+    .movingBox div {
+        width:50%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .movingBox div {
+        width:100%;
+    }
+}

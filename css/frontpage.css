@@ -1,0 +1,58 @@
+
+.banner {
+    width: 800px;
+    height: 500px;
+    padding-top: 1px;
+    background-image: url("../imgs/hakuna.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.title {
+    padding: 300px 0 0px;
+    margin-bottom: auto;
+    color: aliceblue;
+}
+
+.content {
+    margin-top: auto;
+    padding-top: 0px;
+    color: chartreuse;
+    margin-bottom: auto;
+}
+
+.button {
+    margin-top: 8px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 30px;
+}
+
+.description {
+    width: 500px;
+    height: 150px;
+    background-color: lightgray;
+    margin: auto;
+    position: relative;
+    top: 13%;
+    padding: 10px;
+}
+
+.flex-navbar {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+}
+
+.flex-box {
+    background: grey;
+    margin-right: 10px;
+}
