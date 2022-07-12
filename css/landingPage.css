@@ -47,6 +47,10 @@
     display:flex;
 }
 
+.offer-icons div {
+    margin: auto;
+}
+
 .offer-icons i {
     background-color: burlywood;
     width: 100px;
