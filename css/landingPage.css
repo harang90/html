@@ -1,3 +1,7 @@
+div {
+    box-sizing: border-box;
+}
+
 
 .phone-background {
     background-image: linear-gradient(#e66465, #9198e5);
@@ -38,7 +42,7 @@
     }
 }
 
-.portfolio-container {
+.description-container {
     text-align: center;
 }
 
@@ -83,4 +87,21 @@
     border-radius: 25px;
     box-sizing: border-box;
     margin: 15px;
+}
+
+.portfolio-container {
+    width: 100%;
+    height: 500px;
+    text-align: center;
+}
+
+.portfolio-images {
+    display: flex;
+    width: 100%;
+    height: 80%;
+}
+
+.portfolio-image img {
+    width: 25%;
+    height: 25%;
 }
