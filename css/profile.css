@@ -1,4 +1,10 @@
 
+div {
+    box-sizing: border-box;
+}
+
 .white-box {
     background: white;
+    padding: 10px;
+    margin: 10px;
 }
