@@ -8,3 +8,8 @@ div {
     padding: 10px;
     margin: 10px;
 }
+
+.profile-mightKnow_container::after {
+    content:"";
+    clear:both;
+}
