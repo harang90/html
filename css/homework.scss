@@ -1,0 +1,44 @@
+
+$variable: #123123;
+
+.text {
+    color: $variable
+}
+
+.navbar {
+    ul {
+        width: 100%;
+    }
+}
+
+.btn {
+    font-size: 16px;
+    padding: 10px;
+    background: grey;
+}
+
+.btn-green {
+    @extend .btn;
+    background: green;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+.box-green {
+    @extend .box;
+    background: green;
+}
+
+.box-red {
+    @extend .box;
+    background: red;
+}
+
+.box-blue {
+    @extend .box;
+    background: blue;
+}

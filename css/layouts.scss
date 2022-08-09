@@ -1,0 +1,12 @@
+@use 'homework.scss';
+
+@mixin 버튼기본디자인($bg-color) {
+    font-size: 16px;
+    padding: 10px;
+    background: $bg-color;
+}
+
+.btn-green {
+    @include 버튼기본디자인(green);
+}
+
